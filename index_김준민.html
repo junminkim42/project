@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이디야 메인페이지</title>
+    <style type="text/css">
+        *{margin: 0; padding: 0;}
+        ul{list-style: none;}
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        img{
+            border:0;
+            vertical-align: top;
+        }
+
+        #header{
+            width: 1150px; 
+            margin: 0 auto;
+        }
+        #header .logo{
+            width: 202px; height:50px;
+            margin: 0 auto;
+            margin-top: 30px;            
+        }
+        #header .gnb{
+            width:1050px;
+            font-size: 16px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        #header .gnb li{
+            float:left;
+            margin-right: 80px;
+        }
+        #section{
+            width:100%;
+        }
+        #section .main_banner{
+            /* width: 100%; height:500px; */
+            /* background-image: url(images/IMG_1698628010168.jpg);
+            background-size: cover;
+            background-repeat: no-repeat; */
+            /* border:1px solid red; */
+        }
+        #section .main_banner img{
+            width:100%;
+        }
+        #section .always{
+            width: 100%; height:500px;
+            background-image: url(images/block02_bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* background-position: bottom; */
+            color: white;
+            text-align: center;
+            /* border:1px solid red; */
+        }
+        #section .always .always_mtit{
+            padding-top: 100px;
+            font-size: 48px;
+        }
+        #section .always .always_mtit span{
+            height: 30px;
+            font-weight: normal;
+        }
+        #section .always .line{
+            width: 100px;
+            border: 1px solid white;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+        #section .always .always_stit{
+            font-size: 28px;
+            margin-bottom: 50px;
+        }
+        #section .always .btn{
+            width: 100px; height: 20px;
+            border: 1px solid white;
+            padding: 10px 30px;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+        #section .always .btn:hover{
+            background-color: white;
+            color:black;
+        }
+        #section .founder{
+            width: 100%; height: 500px;
+            background-image: url(images/KakaoTalk_20231110_132526091.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+        }
+        #section .founder .f_mtit{
+            margin-left: 900px;
+            font-size: 40px;
+            padding: 50px;
+        }
+        #section .founder .f_smtit{
+            margin-left: 960px;
+            font-size: 18px;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+        #section .founder .btn_group{
+            overflow: hidden;
+            margin-left: 930px;
+        }
+        #section .founder .btn_group .btn{
+            float: left;
+            margin-left: 30px;
+            margin-top: 30px;
+            border: 1px solid white;
+            padding: 10px 50px;
+            cursor: pointer;
+        }#section .founder .btn:hover{
+            background-color: white;
+            color:black;
+            border: 1px solid rgba(255, 255, 255, 0)
+        }
+        #footer{
+            width:100%;
+            text-align: center;
+            color:rgb(121, 119, 119);
+            background-color: rgb(32, 32, 32);
+        }
+        #footer .bottom_logo{
+            padding-top: 30px;
+            font-size: 28px;
+        }
+        #footer .bottom_info{
+            margin-top: 20px;
+            margin-bottom: 15px;
+            font-size: 12px;
+        }
+        #footer .copyright{
+            font-size: 12px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1 class="logo">
+            <a href="#"><img src="images/top_logo.gif" alt="main banner"></a>
+        </h1>
+        <ul class="gnb">
+            <li><a href="#">원두</a></li>
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">유통제품</a></li>
+            <li><a href="#">이디야멤버스</a></li>
+            <li><a href="#">상품권·제휴카드</a></li>
+            <li><a href="#">브랜드소식</a></li>
+            <li><a href="#">고객지원</a></li>
+        </ul>
+    </div>
+    <div id="section">
+        <div class="main_banner">
+            <img src="images/IMG_1698628010168.jpg" alt="main banner">
+        </div>
+        <div class="always">
+            <h1 class="always_mtit"><span>ALWAYS BESIDE YOU,</span> EDIYA COFFEE</h1>
+            <div class="line"></div>
+            <h3 class="always_stit">늘 당신곁에, 이디야 커피의 다양한 메뉴를 맛보세요.</h3>
+            <p class="btn">메뉴보기</p>
+        </div>
+        <div class="founder">
+            <h1 class="f_mtit">
+                고객과 가맹점주, 협력사의<br>
+                상생의 가치를 실천합니다.
+            </h1>
+            <h3 class="f_smtit">
+                해외에 로열티를 내지 않는 순수한 국내브랜드로<br>
+                품질좋고 맛있는 정직한 커피를 제공합니다.
+            </h3>
+            <div class="btn_group">
+                <p class="btn">창업안내</p>
+                <p class="btn">창업설명회 안내</p>
+                <p class="btn">브랜드소개</p>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <h1 class="bottom_logo">EDIYA COFFEE</h1>
+        <p class="bottom_info">
+            서울특별시 강남구 논현로 636 이디야빌딩 | TEL : 02-543-6467 | FAx : 02-543-7191<br>
+            사업자등록번호:107-52-78541 | 통신판매업 신고:강남 제002519호 | 대표이사:문창기, 권익범
+        </p>
+        <p class="copyright">&copy; 2017 EDIYA COFFEE COMPANY. ALL RIGHTS RESERVED.</p>
+    </div>
+</body>
+</html>
